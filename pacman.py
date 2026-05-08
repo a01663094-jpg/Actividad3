@@ -56,7 +56,7 @@ def square(x, y):
     path.begin_fill()
 
     for count in range(4):
-        path.forward(20)
+        path.forward(25)
         path.left(90)
 
     path.end_fill()
