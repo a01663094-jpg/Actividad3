@@ -32,7 +32,7 @@ The following modifications were implemented:
 
 - The original board layout was changed by modifying the `tiles` list.
 - The new board creates a different path structure and changes the gameplay experience.
-- The ghosts were made faster by adjusting the game timer.
+- The ghosts movement speed was increased by modifying the internal game timer and movement refresh rate, making the gameplay more dynamic and challenging for the player during longer matches.
 - A smarter ghost movement system was implemented.
 - The ghosts now analyze valid movements and try to move closer to Pacman.
 - The code was documented with comments and function descriptions.
