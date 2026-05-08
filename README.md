@@ -43,7 +43,7 @@ The following modifications were implemented:
 
 A new function called `move_ghost_smart()` was implemented.
 
-This function checks the valid directions available for each ghost and chooses the movement that reduces the distance between the ghost and Pacman. This makes the ghosts behave more intelligently compared to the original version.
+This function analyzes all valid movement directions available for each ghost and selects the option that minimizes the distance between the ghost and Pacman position. By evaluating nearby paths continuously, the ghosts can react faster and make more efficient decisions during gameplay. This modification improves the overall difficulty of the game and creates a more dynamic experience compared to the original version.
 
 ---
 
