@@ -179,7 +179,7 @@ def move():
         if abs(pacman - point) < 20:
             return
 
-    ontimer(move, 90)
+    ontimer(move, 70)
 
 
 def change(x, y):
