@@ -64,11 +64,12 @@ This function analyzes all valid movement directions available for each ghost an
 - Git
 - GitHub
 - WSL Ubuntu
-- Nano Editor
+- - Nano Editor for editing source code files directly from the WSL Ubuntu terminal environment
 
 ---
 
 # Commands Used
+
 
 Copy the original game:
 
